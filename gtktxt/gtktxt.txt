@@ -1,0 +1,35 @@
+style "panel-clock-custom"
+{
+fg[NORMAL]    = "#FFFFFF"
+fg[PRELIGHT]    = "#000000"
+fg[ACTIVE]    = "#0d2626"
+text[NORMAL]    = "#FFFFFF"
+text[PRELIGHT]    = "#000000"
+text[ACTIVE]    = "#000000"
+}
+
+style "panel-color" {
+fg[NORMAL] = "#b3b3b3"
+fg[ACTIVE] = "#000000"
+bg[NORMAL] = "#3d6eab"
+bg[PRELIGHT] = "#3d6eab"
+bg[ACTIVE] = "#3d6eab"
+bg[SELECTED] = "#b3b3b3"
+}
+
+
+widget "*actions*"	style"panel-clock-custom"
+widget "*clock*"	style"panel-clock-custom"
+#widget "*tasklist*"	style"panel-color"
+#widget "*window*"	style"panel-color"
+#widget_class "*Panel*" 	style"panel-color"
+#widget "*PanelWidget*" style "panel-color"
+#class "*Tray*" style "panel-color"
+
+
+# -- THEME AUTO-WRITTEN BY gtk-theme-switch2 DO NOT EDIT
+include "/usr/share/themes/Ultimate-Maia-Blue/gtk-2.0/gtkrc"
+
+include "/home/anton/.gtkrc-2.0.mine"
+
+# -- THEME AUTO-WRITTEN BY gtk-theme-switch2 DO NOT EDIT
